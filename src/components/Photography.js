@@ -13,7 +13,7 @@ function Photography() {
                     ].map(([src, alt]) => (
                         <div class="zoom randomPic1 shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
                             data-mdb-ripple="true" data-mdb-ripple-color="dark" key={alt}>
-                            <img src={require(`./images/${src}.jpg`)}
+                            <img src={require(`../images/${src}.jpg`)}
                                 class="w-full transition duration-300 ease-linear align-middle" />
                             
                                 <div class="hover-overlay">

@@ -10,29 +10,29 @@ function Music() {
                     <div class="flex flex-wrap w-1/2" >
                         <div class="w-1/2 p-1 md:p-2">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                src={require("./images/m2.jpg")} />
+                                src={require("../images/m2.jpg")} />
                         </div>
                         <div class="w-1/2 p-1 md:p-2">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                src={require("./images/m3.jpg")} />
+                                src={require("../images/m3.jpg")} />
                         </div>
                         <div class="w-full p-1 md:p-2">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                src={require("./images/m6.jpg")} />
+                                src={require("../images/m6.jpg")} />
                         </div>
                     </div>
                     <div class="flex flex-wrap w-1/2">
                         <div class="w-full p-1 md:p-2">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                src={require("./images/m1.jpg")} />
+                                src={require("../images/m1.jpg")} />
                         </div>
                         <div class="w-1/2 p-1 md:p-2">
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                src={require("./images/m5.jpg")} />
+                                src={require("../images/m5.jpg")} />
                         </div>
                         <div class="w-1/2 p-1 md:p-2" >
                             <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                src={require("./images/m4.jpg")} />
+                                src={require("../images/m4.jpg")} />
                         </div>
                     </div>
                 </div>

@@ -1,9 +1,9 @@
 import "./App.css";
 import Travel from "./Travel";
 import Photography from "./Photography";
-import Home from "./Home";
+import Home from "./components/Home";
 import React, { useEffect, useState } from "react";
-import Random from "./Randome";
+import Nature from "./Nature";
 import Music from "./Music";
 
 function App() {
@@ -44,41 +44,7 @@ function App() {
               </a>
             </li>
 
-            <li class="mb-2 px-4 py-4 text-gray-100 flex flex-row  border-gray-300 hover:text-black   hover:bg-gray-300  hover:font-bold rounded rounded-lg">
-              <a href="#">
-                <button onClick={() => setNavi("About")}>
-                  About
-                </button>
-              </a>
-            </li>
-            <li class="mb-2 px-4 py-4 text-gray-100 flex flex-row  border-gray-300 hover:text-black   hover:bg-gray-300  hover:font-bold rounded rounded-lg">
-              <a href="#">
-                <button onClick={() => setNavi("Photography")}>
-                  Photography
-                </button>
-              </a>
-            </li>
-            <li class="mb-2 px-4 py-4 text-gray-100 flex flex-row  border-gray-300 hover:text-black   hover:bg-gray-300  hover:font-bold rounded rounded-lg">
-              <a href="#">
-                <button onClick={() => setNavi("Travel")}>
-                  Travels
-                </button>
-              </a>
-            </li>
-            <li class="mb-2 px-4 py-4 text-gray-100 flex flex-row  border-gray-300 hover:text-black   hover:bg-gray-300  hover:font-bold rounded rounded-lg">
-              <a href="#">
-                <button onClick={() => setNavi("Music")}>
-                  Music
-                </button>
-              </a>
-            </li>
-            <li class="mb-2 px-4 py-4 text-gray-100 flex flex-row  border-gray-300 hover:text-black   hover:bg-gray-300  hover:font-bold rounded rounded-lg">
-              <a href="#">
-                <button onClick={() => setNavi("Random")}>
-                  Nature
-                </button>
-              </a>
-            </li>
+           
           </ul>
         </div>
 
@@ -105,7 +71,7 @@ function App() {
         {navi == 'Travel' && <Travel />}
         {navi == 'Photography' && <Photography />}
         {navi == 'Music' && <Music />}
-        {navi == 'Random' && <Random />}
+        {navi == 'Nature' && <Nature />}
       </main>
     </div>
   );
