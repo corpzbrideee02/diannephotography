@@ -1,6 +1,6 @@
 function Nature() {
     return (
-        <section className="overflow-hidden text-gray-700 ">
+        <section>
             <h2 class="cursive text-3xl font-bold mb-6 mt-6 text-center text-teal-500">
                 {/* Landscape, Macro and Wildlife Photography */}
                 “Nature always wears the colors of the spirit.“

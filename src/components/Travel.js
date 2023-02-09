@@ -12,11 +12,11 @@ function Travel() {
                         <div class="travelPicDiv shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
                             data-mdb-ripple="true" data-mdb-ripple-color="light">
                             <img src={require("../images/b.jpeg")} class="w-full" />
-                            <a href="#!">
+                           
                                 <div
                                     class="travelPic mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
                                 ></div>
-                            </a>
+                           
                         </div>
                         <h5 class="text-lg font-bold mb-3">Example1</h5>
                         <div class="mb-3 text-red-600 font-medium text-sm flex items-center justify-center lg:justify-start">
@@ -36,11 +36,9 @@ function Travel() {
                         <div class="travelPicDiv shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
                             data-mdb-ripple="true" data-mdb-ripple-color="light">
                             <img src={require("../images/a.jpg")} class="w-full" />
-                            <a href="#!">
                                 <div
                                     class="travelPic mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
                                 ></div>
-                            </a>
                         </div>
 
                         <h5 class="text-lg font-bold mb-3">Example2</h5>
@@ -61,11 +59,9 @@ function Travel() {
                         <div class="travelPicDiv shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
                             data-mdb-ripple="true" data-mdb-ripple-color="light">
                             <img src={require("../images/c.jpeg")} class="w-full" />
-                            <a href="#!">
                                 <div
                                     class="travelPic mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
                                 ></div>
-                            </a>
                         </div>
 
                         <h5 class="text-lg font-bold mb-3">Example3</h5>

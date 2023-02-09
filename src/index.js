@@ -4,7 +4,7 @@ import './index.css';
 import "./App.css";
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import WithTopBar from "./components/WithTopBar";
 
 import Travel from "./components/Travel";
@@ -16,22 +16,27 @@ import Music from "./components/Music";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/*  <App /> */}
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        
-        {/* Pages with external access */}
+        {/* page not found route */}
+        <Route
+              path="*"
+              element={
+                  <main class="flex items-center justify-center" >
+                   <img  src={require("./images/404_black.png")} width="500" alt="Page Not found"/>
+                </main>
+              }/>
         <Route path="/" element={<WithTopBar />}>
-          <Route exact path="" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           {/* <Route path="/about" element={<About />} /> */}
           <Route path="/photography" element={<Photography />} />
           <Route path="/travels" element={<Travel />} />
           <Route path="/music" element={<Music />} />
           <Route path="/nature" element={<Nature />} />
+        
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 

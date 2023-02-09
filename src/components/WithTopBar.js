@@ -3,7 +3,6 @@ import { Link, NavLink } from "react-router-dom";
 
 // react router
 import { Outlet } from "react-router-dom";
-import SideBar from "./Sidebar";
 
 function checkIfActiveRoute(page) {
     const currentPage = window.location.pathname;
@@ -16,7 +15,7 @@ function checkIfActiveRoute(page) {
 }
 
 const navigation = [
-    { name: "Home", href: "/home", current: checkIfActiveRoute("home") },
+    { name: "Home", href: "/", current: checkIfActiveRoute("home") },
     { name: "About", href: "/about", current: checkIfActiveRoute("about") },
     {name: "Photography",href: "/photography",current: checkIfActiveRoute("photography")},
     {name: "Travel",href: "/travels",current: checkIfActiveRoute("travels")},
