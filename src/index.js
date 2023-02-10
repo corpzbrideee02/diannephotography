@@ -22,7 +22,7 @@ root.render(
         <Route
               path="*"
               element={
-                  <main class="flex items-center justify-center" >
+                  <main className="flex items-center justify-center" >
                    <img  src={require("./images/404_black.png")} width="500" alt="Page Not found"/>
                 </main>
               }/>

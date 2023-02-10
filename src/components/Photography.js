@@ -15,25 +15,25 @@ function Photography() {
         { alt: "Japanese umbrella (Wagasa) taken during Autumn season", src: "p13", id: 9 },
     ];
     return (
-        <section class="randomPic text-gray-800 mt-4">
-            <h2 class="cursive text-3xl font-bold mb-12 text-center text-teal-500">
+        <section className="randomPic text-gray-800 mt-4">
+            <h2 className="cursive text-3xl font-bold mb-12 text-center text-teal-500">
                 “Photography is the art of making memories tangible.”
             </h2>
-            <div class="absolute p-4">
-                <div class="grid lg:grid-cols-3 gap-4">
+            <div className="absolute p-4">
+                <div className="grid lg:grid-cols-3 gap-4">
                 {photography_list.map((item) => (
-                             <div class="group relative zoom randomPic1 shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
+                             <div className="group relative zoom randomPic1 shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
                             data-mdb-ripple="true" data-mdb-ripple-color="dark" key={item.id}>
                             <img src={require(`../images/${item.src}.jpg`)}
-                                class="w-full object-cover transition duration-300 ease-linear align-middle" />
+                                className="w-full object-cover transition duration-300 ease-linear align-middle" />
                             <div
-                                class="absolute bottom-0 top-0 w-full h-0 flex flex-col justify-center items-center bg-neutral-900 opacity-0 group-hover:h-1/6 group-hover:opacity-75 duration-500">
-                                <h1 class="text-sm text-white">{item.alt}</h1>
+                                className="absolute bottom-0 top-0 w-full h-0 flex flex-col justify-center items-center bg-neutral-900 opacity-0 group-hover:h-1/6 group-hover:opacity-75 duration-500">
+                                <h1 className="text-sm text-white">{item.alt}</h1>
                             </div>
 
-                            <div class="group relative hover-overlay">
+                            <div className="group relative hover-overlay">
                                 <div
-                                    class="randomPic3 mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                                    className="randomPic3 mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
                                 ></div>
 
                             </div>
