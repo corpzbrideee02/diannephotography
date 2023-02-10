@@ -1,4 +1,19 @@
 
+
+import React  from "react";
+
+const music_gallery1= [
+    { alt: "CDs vitalogy focus", src: "m2", width:"w-1/2"},
+    { alt: "Vitalogy", src: "m3", width:"w-1/2"},
+    { alt: "Acoustic guitar", src: "m6", width:"w-full"},
+];
+
+const music_gallery2= [
+    { alt: "Epiphone Gibson electric guitar", src: "m1", width:"w-full"},
+    { alt: "complete CDs", src: "m5", width:"w-1/2"},
+    { alt: "Pink Floyd vinyl record turntable", src: "m4", width:"w-1/2"},
+];
+
 function Music() {
     return (
         <section class="overflow-hidden text-gray-700 mt-4">
@@ -8,32 +23,20 @@ function Music() {
             <div class="container px-2 py-2 mx-auto lg:pt-4 lg:px-32">
                 <div class=" flex flex-wrap -m-1 md:-m-2">
                     <div class="flex flex-wrap w-1/2" >
-                        <div class="w-1/2 p-1 md:p-2">
-                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                src={require("../images/m2.jpg")} />
+                    {music_gallery1.map((item) => (
+                              <div class={`${item.width} p-1 md:p-2`}>
+                            <img alt={item.alt} class="block object-cover object-center w-full h-full rounded-lg"
+                                src={require(`../images/${item.src}.jpg`)} />
                         </div>
-                        <div class="w-1/2 p-1 md:p-2">
-                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                src={require("../images/m3.jpg")} />
-                        </div>
-                        <div class="w-full p-1 md:p-2">
-                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                src={require("../images/m6.jpg")} />
-                        </div>
+                        ))}
                     </div>
                     <div class="flex flex-wrap w-1/2">
-                        <div class="w-full p-1 md:p-2">
-                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                src={require("../images/m1.jpg")} />
+                    {music_gallery2.map((item) => (
+                              <div class={`${item.width} p-1 md:p-2`}>
+                            <img alt={item.alt} class="block object-cover object-center w-full h-full rounded-lg"
+                                src={require(`../images/${item.src}.jpg`)} />
                         </div>
-                        <div class="w-1/2 p-1 md:p-2">
-                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                src={require("../images/m5.jpg")} />
-                        </div>
-                        <div class="w-1/2 p-1 md:p-2" >
-                            <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                                src={require("../images/m4.jpg")} />
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>
