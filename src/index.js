@@ -5,13 +5,12 @@ import "./App.css";
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from "react-router-dom";
-import WithTopBar from "./components/WithTopBar";
-
 import Travel from "./components/Travel";
 import Photography from "./components/Photography";
 import Home from "./components/Home";
 import Nature from "./components/Nature";
 import Music from "./components/Music";
+import Sidebar from './components/Sidebar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,7 +25,7 @@ root.render(
                    <img  src={require("./images/404_black.png")} width="500" alt="Page Not found"/>
                 </main>
               }/>
-        <Route path="/" element={<WithTopBar />}>
+        <Route path="/" element={<Sidebar />}>
           <Route exact path="/" element={<Home />} />
           {/* <Route path="/about" element={<About />} /> */}
           <Route path="/photography" element={<Photography />} />
