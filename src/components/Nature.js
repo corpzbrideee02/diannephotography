@@ -17,7 +17,7 @@ function Nature() {
     ];
     return (
         <section>
-            <h2 className="cursive text-3xl font-bold mb-6 mt-6 text-center text-teal-500">
+            <h2 className="sectionQuotes">
                 {/* Landscape, Macro and Wildlife Photography */}
                 “Nature always wears the colors of the spirit.“
             </h2>

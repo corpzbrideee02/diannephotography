@@ -8,8 +8,8 @@ function Travel() {
         { alt:"", src: "c.jpeg", id: 3, description: " Ut pretium ultricies dignissim. Sed sit amet mi eget urnaplacerat vulputate. Ut vulputate est non quam dignissimelementum. Donec a ullamcorper diam.",  },
     ];
     return (
-        <section className="mb-32 mt-4 text-gray-800 text-center lg:text-left">
-            <h2 className="cursive text-3xl font-bold mb-12 text-center text-teal-500">
+        <section>
+            <h2 className="sectionQuotes">
                 “The more you wander, the more you wonder!”
             </h2>
             <div className="absolute p-4">

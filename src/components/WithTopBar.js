@@ -17,10 +17,10 @@ function checkIfActiveRoute(page) {
 const navigation = [
     { name: "Home", href: "/", current: checkIfActiveRoute("home") },
     { name: "About", href: "/about", current: checkIfActiveRoute("about") },
-    {name: "Photography",href: "/photography",current: checkIfActiveRoute("photography")},
-    {name: "Travel",href: "/travels",current: checkIfActiveRoute("travels")},
-    {name: "Music",href: "/music",current: checkIfActiveRoute("music")},
-    {name: "Nature",href: "/nature",current: checkIfActiveRoute("nature")},
+    { name: "Photography", href: "/photography", current: checkIfActiveRoute("photography") },
+    { name: "Travel", href: "/travels", current: checkIfActiveRoute("travels") },
+    { name: "Music", href: "/music", current: checkIfActiveRoute("music") },
+    { name: "Nature", href: "/nature", current: checkIfActiveRoute("nature") },
 ];
 
 
@@ -54,17 +54,12 @@ const Navigation = () => {
                 </div>
 
                 <div className="mt-10 mb-4">
-                        {navigation.map((item) => (
-                             <ul className="ml-4">
-                            <NavLink key={item.name} to={item.href} >
-                                <label className="mb-2 px-4 py-3 text-gray-300 flex flex-row border-gray-500 hover:text-black   hover:bg-gray-500  rounded rounded-md">
-                                {item.name}
-                                </label>
-                                
-                            </NavLink>
-                            </ul>
-                        ))}
-                    </div>
+                    {navigation.map((item) => (
+                        <NavLink key={item.name} to={item.href} className="navUL">
+                            <label >{item.name} </label>
+                        </NavLink>
+                    ))}
+                </div>
             </aside>
             <main className="main -ml-48 flex flex-grow flex-col transition-all duration-150 ease-in md:ml-0">
                 {/* Renders the child routes underneath */}

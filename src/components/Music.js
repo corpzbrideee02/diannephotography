@@ -16,8 +16,8 @@ const music_gallery2= [
 
 function Music() {
     return (
-        <section className="overflow-hidden text-gray-700 mt-4">
-             <h2 className="cursive text-3xl font-bold mb-12 text-center text-teal-500">
+        <section>
+             <h2 className="sectionQuotes">
              “Music is the universal language of mankind.”
             </h2>
             <div className="container px-2 py-2 mx-auto lg:pt-4 lg:px-32">
@@ -25,7 +25,7 @@ function Music() {
                     <div className="flex flex-wrap w-1/2" >
                     {music_gallery1.map((item) => (
                               <div className={`${item.width} p-1 md:p-2`}>
-                            <img alt={item.alt} className="block object-cover object-center w-full h-full rounded-lg"
+                            <img alt={item.alt} className="musicImg"
                                 src={require(`../images/${item.src}.jpg`)} />
                         </div>
                         ))}
@@ -33,7 +33,7 @@ function Music() {
                     <div className="flex flex-wrap w-1/2">
                     {music_gallery2.map((item) => (
                               <div className={`${item.width} p-1 md:p-2`}>
-                            <img alt={item.alt} className="block object-cover object-center w-full h-full rounded-lg"
+                            <img alt={item.alt} className="musicImg"
                                 src={require(`../images/${item.src}.jpg`)} />
                         </div>
                         ))}

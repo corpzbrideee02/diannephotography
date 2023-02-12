@@ -15,8 +15,8 @@ function Photography() {
         { alt: "Japanese umbrella (Wagasa) taken during Autumn season", src: "p13", id: 9 },
     ];
     return (
-        <section className="randomPic text-gray-800 mt-4">
-            <h2 className="cursive text-3xl font-bold mb-12 text-center text-teal-500">
+        <section>
+            <h2 className="sectionQuotes">
                 “Photography is the art of making memories tangible.”
             </h2>
             <div className="absolute p-4">

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -75,4 +79,22 @@ section #main_container::before {
 }
 .randomPic3{
   background-color: rgba(253, 253, 253, 0.15)
+}
+
+
+/* @layer */
+
+@layer components {
+  .navUL {
+    @apply ml-4 mb-2 px-4 py-3 text-gray-300 flex flex-row border-gray-500 hover:text-black   hover:bg-gray-500  rounded rounded-md;
+  }
+  .sectionQuotes{
+    @apply text-3xl font-bold mb-12 text-center text-teal-500 cursive;
+  }
+  .musicImg{
+    @apply block object-cover object-center w-full h-full rounded-lg;
+  }
+  .homeStyle{
+    @apply relative grid place-content-center place-items-center gap-2 before:bg-gradient-to-t before:from-teal-500/70 before:via-teal-600 before:to-transparent before:blur-xl before:filter;
+  }
 }
