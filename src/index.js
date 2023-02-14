@@ -11,6 +11,8 @@ import Home from "./components/Home";
 import Nature from "./components/Nature";
 import Music from "./components/Music";
 import Sidebar from './components/Sidebar';
+import About from './components/About';
+import Arts from './components/Arts';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,11 +29,12 @@ root.render(
               }/>
         <Route path="/" element={<Sidebar />}>
           <Route exact path="/" element={<Home />} />
-          {/* <Route path="/about" element={<About />} /> */}
-          <Route path="/photography" element={<Photography />} />
-          <Route path="/travels" element={<Travel />} />
-          <Route path="/music" element={<Music />} />
+          <Route path="/about" element={<About />} />
           <Route path="/nature" element={<Nature />} />
+          <Route path="/travels" element={<Travel />} />
+          <Route path="/photography" element={<Photography />} />
+          <Route path="/music" element={<Music />} />
+          <Route path="/arts" element={<Arts />} />
         
         </Route>
       </Routes>

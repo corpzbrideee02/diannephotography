@@ -16,7 +16,7 @@ const music_gallery2= [
 
 function Music() {
     return (
-        <section>
+        <section className="wrap">
              <h2 className="sectionQuotes">
              “Music is the universal language of mankind.”
             </h2>
@@ -26,7 +26,7 @@ function Music() {
                     {music_gallery1.map((item) => (
                               <div className={`${item.width} p-1 md:p-2`}>
                             <img alt={item.alt} className="musicImg"
-                                src={require(`../images/${item.src}.jpg`)} />
+                                src={require(`../images/music/${item.src}.jpg`)} />
                         </div>
                         ))}
                     </div>
@@ -34,7 +34,7 @@ function Music() {
                     {music_gallery2.map((item) => (
                               <div className={`${item.width} p-1 md:p-2`}>
                             <img alt={item.alt} className="musicImg"
-                                src={require(`../images/${item.src}.jpg`)} />
+                                src={require(`../images/music/${item.src}.jpg`)} />
                         </div>
                         ))}
                     </div>

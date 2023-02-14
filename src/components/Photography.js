@@ -6,16 +6,26 @@ function Photography() {
         { alt: "Giant Teddy Bear sitting alone", src: "p11", id: 2 },
         { alt: "Poker table at Whitchurch-Stouffville, ON", src: "p12", id: 3 },
 
-        { alt: "A cool Dragon glass bong", src: "p18", id: 4 },
+        { alt: "Pioneer Digital DJ System", src: "p18", id: 4 },
         { alt: "Persian chess set at the Multicultural Festival", src: "p14", id: 5 },
-        { alt: "Deep fried quailed eggs coated w/ blue batter (Filipino dish)", src: "p15", id: 6 },
+        { alt: "Gaming headset in our house", src: "p16", id: 7 },
 
-        { alt: "Camping essentials at Elora Conservation Area", src: "p16", id: 7 },
+        
+        { alt: "Deep fried quailed eggs coated w/ blue batter (Filipino dish)", src: "p15", id: 6 },
         { alt: "A tall birdhouse in St. Thomas park", src: "p17", id: 8 },
         { alt: "Japanese umbrella (Wagasa) taken during Autumn season", src: "p13", id: 9 },
+
+        { alt: "Stratford City Hall ", src: "p22", id: 10 },
+        { alt: "Downtown Stratford, Ontario", src: "p23", id: 11 },
+        { alt: "Outdoor skating rink in Toronto, Ontario", src: "p24", id: 12 },
+        
+
+        { alt: "Wooden coffins dangle from cliffs in Sagada (Philippines)", src: "p19", id: 13 },
+        { alt: "Two elderlies working in a Ginseng farm", src: "p20", id: 14 },
+        { alt: "A cool stone in Niagara on the lake", src: "p21", id: 15 },
     ];
     return (
-        <section>
+        <section className="wrap">
             <h2 className="sectionQuotes">
                 “Photography is the art of making memories tangible.”
             </h2>
@@ -24,7 +34,7 @@ function Photography() {
                 {photography_list.map((item) => (
                              <div className="group relative zoom randomPic1 shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
                             data-mdb-ripple="true" data-mdb-ripple-color="dark" key={item.id}>
-                            <img src={require(`../images/${item.src}.jpg`)}
+                            <img src={require(`../images/photography/${item.src}.jpg`)}
                                 className="w-full object-cover transition duration-300 ease-linear align-middle" />
                             <div
                                 className="absolute bottom-0 top-0 w-full h-0 flex flex-col justify-center items-center bg-neutral-900 opacity-0 group-hover:h-1/6 group-hover:opacity-75 duration-500">

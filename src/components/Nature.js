@@ -14,9 +14,12 @@ function Nature() {
         { alt: "Webworms", src: 14, id: 14 },
         { alt: "Stack rocks in a beach", src: 16, id: 16 },
         { alt: "Pebble beach on river", src: 17, id: 17 },
+        { alt: "Cave", src: 18, id: 18 },
+        { alt: "Cave", src: 19, id: 19 },
+        { alt: "Cave", src:20, id: 20 },
     ];
     return (
-        <section>
+        <section className="wrap">
             <h2 className="sectionQuotes">
                 {/* Landscape, Macro and Wildlife Photography */}
                 “Nature always wears the colors of the spirit.“
@@ -27,7 +30,7 @@ function Nature() {
                            <div className="flex flex-wrap w-1/3 hover:bg-neutral-900" key={item.id}>
                             <div className="w-full p-1 md:p-2">
                                 <img alt={item.alt} className="block object-cover object-center w-full h-full rounded-md"
-                                    src={require(`../images/${item.src}.jpg`)} />
+                                    src={require(`../images/nature/${item.src}.jpg`)} />
                             </div>
                         </div>
                         ))}
