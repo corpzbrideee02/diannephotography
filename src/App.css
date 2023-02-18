@@ -63,6 +63,10 @@ section #main_container::before {
   transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
 }
 
+section .AboutSection p{
+  color: whitesmoke;
+}
+
 .travelPic{
   background-color: rgba(251, 251, 251, 0.2)
 }
