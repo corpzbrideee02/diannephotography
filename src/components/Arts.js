@@ -2,7 +2,7 @@
 function Arts() {
     return (
         <section className="wrap">
-            <h2 className="sectionQuotes">“Art is not what you see, but what you make others see.”</h2>
+            <h2 className="sectionQuotes">“Art enables us to find ourselves and lose ourselves at the same time.”</h2>
 
             <div className="container px-2 py-2 mx-auto lg:pt-4 lg:px-32">
                 <div className=" flex flex-wrap -m-1 md:-m-2">
