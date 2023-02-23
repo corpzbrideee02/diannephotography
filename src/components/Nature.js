@@ -1,7 +1,5 @@
 import React from "react";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
-
+import LazyLoad from 'react-lazy-load';
 function Nature() {
     const nature_list = [
         { alt: "American Robin", src: 1, id: 1 },
@@ -18,7 +16,7 @@ function Nature() {
         { alt: "Pebble beach on river", src: 17, id: 17 },
         { alt: "Cave", src: 18, id: 18 },
         { alt: "Cave", src: 19, id: 19 },
-        { alt: "Cave", src:20, id: 20 },
+        { alt: "Cave", src: 20, id: 20 },
     ];
     return (
         <section className="wrap">
@@ -28,14 +26,16 @@ function Nature() {
             </h2>
             <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
                 <div className="flex flex-wrap -m-0.5 md:-m-2">
-                {nature_list .map((item) => (
-                           <div className="flex flex-wrap w-1/3 hover:bg-neutral-900" key={item.id}>
+                    {nature_list.map((item) => (
+                        <div className="flex flex-wrap w-1/3 hover:bg-neutral-900" key={item.id}>
                             <div className="w-full p-1 md:p-2">
-                                <LazyLoadImage alt={item.alt} className="block object-cover object-center w-full h-full rounded-md" effect="blur"
-                                    src={require(`../images/nature/${item.src}.jpg`)} />
+                                <LazyLoad>
+                                    <img alt={item.alt} className="block object-cover object-center w-full h-full rounded-md" loading={"lazy"}
+                                        src={require(`../images/nature/${item.src}.jpg`)} />
+                                </LazyLoad>
                             </div>
                         </div>
-                        ))}
+                    ))}
                 </div>
             </div>
         </section>
