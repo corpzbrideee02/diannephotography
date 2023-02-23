@@ -29,7 +29,7 @@ function Nature() {
                 {nature_list .map((item) => (
                            <div className="flex flex-wrap w-1/3 hover:bg-neutral-900" key={item.id}>
                             <div className="w-full p-1 md:p-2">
-                                <img alt={item.alt} className="block object-cover object-center w-full h-full rounded-md"
+                                <img alt={item.alt} className="block object-cover object-center w-full h-full rounded-md" loading={"lazy"}
                                     src={require(`../images/nature/${item.src}.jpg`)} />
                             </div>
                         </div>

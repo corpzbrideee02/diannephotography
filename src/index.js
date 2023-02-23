@@ -1,23 +1,33 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import "./App.css";
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from "react-router-dom";
-import Travel from "./components/Travel";
+const Travel = lazy(() => import("./components/Travel"));
+const Photography = lazy(() => import("./components/Photography"));
+const Home = lazy(() => import("./components/Home"));
+const Nature = lazy(() => import("./components/Nature"));
+const Music= lazy(() => import("./components/Music"));
+const Sidebar= lazy(() => import("./components/Sidebar"));
+const About= lazy(() => import("./components/About"));
+const Arts= lazy(() => import("./components/Arts"));
+
+/* import Travel from "./components/Travel";
 import Photography from "./components/Photography";
 import Home from "./components/Home";
 import Nature from "./components/Nature";
 import Music from "./components/Music";
 import Sidebar from './components/Sidebar';
 import About from './components/About';
-import Arts from './components/Arts';
+import Arts from './components/Arts'; */
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HashRouter>
+    <Suspense fallback={<div>Loading...</div>}>
       <Routes>
         {/* page not found route */}
         <Route
@@ -38,6 +48,7 @@ root.render(
         
         </Route>
       </Routes>
+      </Suspense>
     </HashRouter>
   </React.StrictMode>
 );

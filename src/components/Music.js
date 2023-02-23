@@ -25,7 +25,7 @@ function Music() {
                     <div className="flex flex-wrap w-1/2" >
                     {music_gallery1.map((item) => (
                               <div className={`${item.width} p-1 md:p-2`}>
-                            <img alt={item.alt} className="musicImg"
+                            <img alt={item.alt} className="musicImg" loading={"lazy"}
                                 src={require(`../images/music/${item.src}.jpg`)} />
                         </div>
                         ))}
@@ -33,7 +33,7 @@ function Music() {
                     <div className="flex flex-wrap w-1/2">
                     {music_gallery2.map((item) => (
                               <div className={`${item.width} p-1 md:p-2`}>
-                            <img alt={item.alt} className="musicImg"
+                            <img alt={item.alt} className="musicImg" loading={"lazy"}
                                 src={require(`../images/music/${item.src}.jpg`)} />
                         </div>
                         ))}

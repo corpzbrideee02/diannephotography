@@ -8,13 +8,13 @@ function Arts() {
                 <div className=" flex flex-wrap -m-1 md:-m-2">
                     <div className="flex flex-wrap w-1/2 mx-auto" >
                         <div className="w-full p-1 md:p-2">
-                            <img alt="" className="musicImg" src={require("../images/arts/arrts.gif")} />
+                            <img alt="" className="musicImg" src={require("../images/arts/arrts.gif")} loading={"lazy"}/>
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
-                            <img alt="" className="musicImg" src={require("../images/arts/arrts2.gif")} />
+                            <img alt="" className="musicImg" src={require("../images/arts/arrts2.gif")} loading={"lazy"}/>
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
-                            <img alt="" className="musicImg" src={require("../images/arts/arrts3.gif")} />
+                            <img alt="" className="musicImg" src={require("../images/arts/arrts3.gif")} loading={"lazy"}/>
                         </div>
                     </div>
 
