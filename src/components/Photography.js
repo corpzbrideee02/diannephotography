@@ -1,5 +1,6 @@
 import React from "react";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 function Photography() {
     const photography_list = [
         { alt: "Fancy dining room in a birthday event", src: "p10", id: 1 },
@@ -34,8 +35,7 @@ function Photography() {
                 {photography_list.map((item) => (
                              <div className="group relative zoom randomPic1 shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover"
                             data-mdb-ripple="true" data-mdb-ripple-color="dark" key={item.id}>
-                            <img src={require(`../images/photography/${item.src}.jpg`)}
-                                loading={"lazy"}
+                            <LazyLoadImage src={require(`../images/photography/${item.src}.jpg`)} effect="blur"
                                 className="w-full object-cover transition duration-300 ease-linear align-middle" />
                             <div
                                 className="absolute bottom-0 top-0 w-full h-0 flex flex-col justify-center items-center bg-neutral-900 opacity-0 group-hover:h-1/6 group-hover:opacity-75 duration-500">

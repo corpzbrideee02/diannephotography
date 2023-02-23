@@ -1,17 +1,18 @@
 import React, { useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 // react router
 import { Outlet } from "react-router-dom";
 
 const navigation = [
     { name: "Home", href: "/", },
-    { name: "About", href: "/about",  },
-    { name: "Nature", href: "/nature",  },
-    { name: "Photography", href: "/photography",  },
-    { name: "Travel", href: "/travels",  },
+    { name: "About", href: "/about", },
+    { name: "Nature", href: "/nature", },
+    { name: "Photography", href: "/photography", },
+    { name: "Travel", href: "/travels", },
     { name: "Music", href: "/music" },
-    { name: "Arts", href: "/arts",  },
+    { name: "Arts", href: "/arts", },
 ];
 
 
@@ -22,10 +23,11 @@ const Sidebar = () => {
             <aside className="sidebar w-64 -translate-x-full transform bg-neutral-900 transition-transform duration-150 ease-in md:translate-x-0 md:shadow-md ">
                 {/* place sidebar here */}
                 <div id="profile" className=" mt-10">
-                    <img
+                    <LazyLoadImage
                         src={require(`../images/4a.jpg`)}
                         alt="Avatar user"
                         className="h-32 w-32 md:w-32 rounded-full mx-auto"
+                        effect="blur"
                     />
                     <div>
                         <h1 className="font-medium text-xl  text-center text-teal-500">

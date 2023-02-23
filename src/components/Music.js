@@ -1,6 +1,8 @@
 
 
 import React  from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const music_gallery1= [
     { alt: "CDs vitalogy focus", src: "m2", width:"w-1/2"},
@@ -25,7 +27,7 @@ function Music() {
                     <div className="flex flex-wrap w-1/2" >
                     {music_gallery1.map((item) => (
                               <div className={`${item.width} p-1 md:p-2`}>
-                            <img alt={item.alt} className="musicImg" loading={"lazy"}
+                            <LazyLoadImage alt={item.alt} className="musicImg" effect="blur"
                                 src={require(`../images/music/${item.src}.jpg`)} />
                         </div>
                         ))}
@@ -33,7 +35,7 @@ function Music() {
                     <div className="flex flex-wrap w-1/2">
                     {music_gallery2.map((item) => (
                               <div className={`${item.width} p-1 md:p-2`}>
-                            <img alt={item.alt} className="musicImg" loading={"lazy"}
+                            <LazyLoadImage alt={item.alt} className="musicImg" effect="blur"
                                 src={require(`../images/music/${item.src}.jpg`)} />
                         </div>
                         ))}

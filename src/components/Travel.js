@@ -1,5 +1,7 @@
 
 import React from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Travel() {
     const travel_list = [
@@ -53,7 +55,7 @@ function Travel() {
                            <div className="mb-12 lg:mb-0" key={item.id}>
                         <div className="travelPicDiv shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
                             data-mdb-ripple="true" data-mdb-ripple-color="light">
-                            <img  src={require(`../images/travel/${item.src}`)} className="w-full"  alt={item.alt} loading={"lazy"}/>
+                            <LazyLoadImage src={require(`../images/travel/${item.src}`)} className="w-full"  alt={item.alt} effect="blur"/>
                                 <div
                                     className="travelPic mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
                                 ></div>
