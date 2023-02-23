@@ -1,7 +1,15 @@
 {
   "files": {
     "main.css": "/MyPursuits/static/css/main.66cc9262.css",
-    "main.js": "/MyPursuits/static/js/main.d4036d28.js",
+    "main.js": "/MyPursuits/static/js/main.62ac1269.js",
+    "static/js/96.17d4bf3e.chunk.js": "/MyPursuits/static/js/96.17d4bf3e.chunk.js",
+    "static/js/392.34192dc5.chunk.js": "/MyPursuits/static/js/392.34192dc5.chunk.js",
+    "static/js/121.4baaa118.chunk.js": "/MyPursuits/static/js/121.4baaa118.chunk.js",
+    "static/js/980.24c99d10.chunk.js": "/MyPursuits/static/js/980.24c99d10.chunk.js",
+    "static/js/609.28de4256.chunk.js": "/MyPursuits/static/js/609.28de4256.chunk.js",
+    "static/js/520.9dba5058.chunk.js": "/MyPursuits/static/js/520.9dba5058.chunk.js",
+    "static/js/956.93d6f080.chunk.js": "/MyPursuits/static/js/956.93d6f080.chunk.js",
+    "static/js/538.476af7fd.chunk.js": "/MyPursuits/static/js/538.476af7fd.chunk.js",
     "static/js/787.f6b2e190.chunk.js": "/MyPursuits/static/js/787.f6b2e190.chunk.js",
     "static/media/p13.jpg": "/MyPursuits/static/media/p13.8a9eb4c1f9f71fff6e4d.jpg",
     "static/media/p18.jpg": "/MyPursuits/static/media/p18.6a3b934bc14d23304dcd.jpg",
@@ -71,11 +79,19 @@
     "static/media/404_black.png": "/MyPursuits/static/media/404_black.28261be809d77a3b5070.png",
     "index.html": "/MyPursuits/index.html",
     "main.66cc9262.css.map": "/MyPursuits/static/css/main.66cc9262.css.map",
-    "main.d4036d28.js.map": "/MyPursuits/static/js/main.d4036d28.js.map",
+    "main.62ac1269.js.map": "/MyPursuits/static/js/main.62ac1269.js.map",
+    "96.17d4bf3e.chunk.js.map": "/MyPursuits/static/js/96.17d4bf3e.chunk.js.map",
+    "392.34192dc5.chunk.js.map": "/MyPursuits/static/js/392.34192dc5.chunk.js.map",
+    "121.4baaa118.chunk.js.map": "/MyPursuits/static/js/121.4baaa118.chunk.js.map",
+    "980.24c99d10.chunk.js.map": "/MyPursuits/static/js/980.24c99d10.chunk.js.map",
+    "609.28de4256.chunk.js.map": "/MyPursuits/static/js/609.28de4256.chunk.js.map",
+    "520.9dba5058.chunk.js.map": "/MyPursuits/static/js/520.9dba5058.chunk.js.map",
+    "956.93d6f080.chunk.js.map": "/MyPursuits/static/js/956.93d6f080.chunk.js.map",
+    "538.476af7fd.chunk.js.map": "/MyPursuits/static/js/538.476af7fd.chunk.js.map",
     "787.f6b2e190.chunk.js.map": "/MyPursuits/static/js/787.f6b2e190.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66cc9262.css",
-    "static/js/main.d4036d28.js"
+    "static/js/main.62ac1269.js"
   ]
 }
