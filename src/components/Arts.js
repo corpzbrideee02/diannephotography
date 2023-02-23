@@ -1,4 +1,4 @@
-import LazyLoad from 'react-lazy-load';
+
 function Arts() {
     return (
         <section className="wrap">
@@ -8,19 +8,13 @@ function Arts() {
                 <div className=" flex flex-wrap -m-1 md:-m-2">
                     <div className="flex flex-wrap w-1/2 mx-auto" >
                         <div className="w-full p-1 md:p-2">
-                            <LazyLoad>
                                 <img alt="" className="musicImg" src={require("../images/arts/arrts.gif")} loading={"lazy"} />
-                            </LazyLoad>
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
-                            <LazyLoad>
                                 <img alt="" className="musicImg" src={require("../images/arts/arrts2.gif")} loading={"lazy"} />
-                            </LazyLoad>
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
-                            <LazyLoad>
                                 <img alt="" className="musicImg" src={require("../images/arts/arrts3.gif")} loading={"lazy"} />
-                            </LazyLoad>
                         </div>
                     </div>
 

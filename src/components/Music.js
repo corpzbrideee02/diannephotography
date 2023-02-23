@@ -1,7 +1,6 @@
 
 
 import React  from "react";
-import LazyLoad from 'react-lazy-load';
 const music_gallery1= [
     { alt: "CDs vitalogy focus", src: "m2", width:"w-1/2"},
     { alt: "Vitalogy", src: "m3", width:"w-1/2"},
@@ -25,20 +24,16 @@ function Music() {
                     <div className="flex flex-wrap w-1/2" >
                     {music_gallery1.map((item) => (
                               <div className={`${item.width} p-1 md:p-2`}>
-                                <LazyLoad>
                             <img alt={item.alt} className="musicImg" loading={"lazy"}
                                 src={require(`../images/music/${item.src}.jpg`)} />
-                                </LazyLoad>
                         </div>
                         ))}
                     </div>
                     <div className="flex flex-wrap w-1/2">
                     {music_gallery2.map((item) => (
                               <div className={`${item.width} p-1 md:p-2`}>
-                                 <LazyLoad>
                             <img alt={item.alt} className="musicImg" loading={"lazy"}
                                 src={require(`../images/music/${item.src}.jpg`)} />
-                                </LazyLoad>
                         </div>
                         ))}
                     </div>

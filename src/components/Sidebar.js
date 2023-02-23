@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 
-import LazyLoad from 'react-lazy-load';
 // react router
 import { Outlet } from "react-router-dom";
 
@@ -23,13 +22,11 @@ const Sidebar = () => {
             <aside className="sidebar w-64 -translate-x-full transform bg-neutral-900 transition-transform duration-150 ease-in md:translate-x-0 md:shadow-md ">
                 {/* place sidebar here */}
                 <div id="profile" className=" mt-10">
-                    <LazyLoad>
                     <img
                         src={require(`../images/4a.jpg`)}
                         alt="Avatar user"
                         className="h-32 w-32 md:w-32 rounded-full mx-auto"
                     />
-                    </LazyLoad>
                     <div>
                         <h1 className="font-medium text-xl  text-center text-teal-500">
                             Dianne Corpuz

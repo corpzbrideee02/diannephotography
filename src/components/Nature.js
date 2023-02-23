@@ -1,5 +1,4 @@
 import React from "react";
-import LazyLoad from 'react-lazy-load';
 function Nature() {
     const nature_list = [
         { alt: "American Robin", src: 1, id: 1 },
@@ -29,10 +28,8 @@ function Nature() {
                     {nature_list.map((item) => (
                         <div className="flex flex-wrap w-1/3 hover:bg-neutral-900" key={item.id}>
                             <div className="w-full p-1 md:p-2">
-                                <LazyLoad>
                                     <img alt={item.alt} className="block object-cover object-center w-full h-full rounded-md" loading={"lazy"}
                                         src={require(`../images/nature/${item.src}.jpg`)} />
-                                </LazyLoad>
                             </div>
                         </div>
                     ))}
