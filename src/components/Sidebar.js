@@ -13,9 +13,6 @@ const navigation = [
     { name: "Music", href: "/music" },
     { name: "Arts", href: "/arts",  },
 ];
-
-
-
 const Sidebar = () => {
     return (
         <div className="flex min-h-screen flex-row h-screen">
