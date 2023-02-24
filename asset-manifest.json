@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MyPursuits/static/css/main.66cc9262.css",
-    "main.js": "/MyPursuits/static/js/main.749be04c.js",
-    "static/js/895.35628ff2.chunk.js": "/MyPursuits/static/js/895.35628ff2.chunk.js",
-    "static/js/839.a88fe7b8.chunk.js": "/MyPursuits/static/js/839.a88fe7b8.chunk.js",
+    "main.css": "/MyPursuits/static/css/main.d11afff6.css",
+    "main.js": "/MyPursuits/static/js/main.4d87f7b1.js",
+    "static/js/965.f8d08a6c.chunk.js": "/MyPursuits/static/js/965.f8d08a6c.chunk.js",
+    "static/js/320.2d74e031.chunk.js": "/MyPursuits/static/js/320.2d74e031.chunk.js",
     "static/js/121.4baaa118.chunk.js": "/MyPursuits/static/js/121.4baaa118.chunk.js",
-    "static/js/358.0ebd2744.chunk.js": "/MyPursuits/static/js/358.0ebd2744.chunk.js",
+    "static/js/434.44983c6e.chunk.js": "/MyPursuits/static/js/434.44983c6e.chunk.js",
     "static/js/854.80d12b46.chunk.js": "/MyPursuits/static/js/854.80d12b46.chunk.js",
-    "static/js/520.9dba5058.chunk.js": "/MyPursuits/static/js/520.9dba5058.chunk.js",
+    "static/js/298.347239b4.chunk.js": "/MyPursuits/static/js/298.347239b4.chunk.js",
     "static/js/360.becf6305.chunk.js": "/MyPursuits/static/js/360.becf6305.chunk.js",
     "static/js/538.476af7fd.chunk.js": "/MyPursuits/static/js/538.476af7fd.chunk.js",
     "static/js/787.f6b2e190.chunk.js": "/MyPursuits/static/js/787.f6b2e190.chunk.js",
@@ -78,20 +78,20 @@
     "static/media/6.jpg": "/MyPursuits/static/media/6.81a4b1ad4f3a8e2e5787.jpg",
     "static/media/404_black.png": "/MyPursuits/static/media/404_black.28261be809d77a3b5070.png",
     "index.html": "/MyPursuits/index.html",
-    "main.66cc9262.css.map": "/MyPursuits/static/css/main.66cc9262.css.map",
-    "main.749be04c.js.map": "/MyPursuits/static/js/main.749be04c.js.map",
-    "895.35628ff2.chunk.js.map": "/MyPursuits/static/js/895.35628ff2.chunk.js.map",
-    "839.a88fe7b8.chunk.js.map": "/MyPursuits/static/js/839.a88fe7b8.chunk.js.map",
+    "main.d11afff6.css.map": "/MyPursuits/static/css/main.d11afff6.css.map",
+    "main.4d87f7b1.js.map": "/MyPursuits/static/js/main.4d87f7b1.js.map",
+    "965.f8d08a6c.chunk.js.map": "/MyPursuits/static/js/965.f8d08a6c.chunk.js.map",
+    "320.2d74e031.chunk.js.map": "/MyPursuits/static/js/320.2d74e031.chunk.js.map",
     "121.4baaa118.chunk.js.map": "/MyPursuits/static/js/121.4baaa118.chunk.js.map",
-    "358.0ebd2744.chunk.js.map": "/MyPursuits/static/js/358.0ebd2744.chunk.js.map",
+    "434.44983c6e.chunk.js.map": "/MyPursuits/static/js/434.44983c6e.chunk.js.map",
     "854.80d12b46.chunk.js.map": "/MyPursuits/static/js/854.80d12b46.chunk.js.map",
-    "520.9dba5058.chunk.js.map": "/MyPursuits/static/js/520.9dba5058.chunk.js.map",
+    "298.347239b4.chunk.js.map": "/MyPursuits/static/js/298.347239b4.chunk.js.map",
     "360.becf6305.chunk.js.map": "/MyPursuits/static/js/360.becf6305.chunk.js.map",
     "538.476af7fd.chunk.js.map": "/MyPursuits/static/js/538.476af7fd.chunk.js.map",
     "787.f6b2e190.chunk.js.map": "/MyPursuits/static/js/787.f6b2e190.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66cc9262.css",
-    "static/js/main.749be04c.js"
+    "static/css/main.d11afff6.css",
+    "static/js/main.4d87f7b1.js"
   ]
 }
