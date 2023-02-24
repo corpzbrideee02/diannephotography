@@ -4,13 +4,13 @@ import './index.css';
 import "./App.css";
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, BrowserRouter } from "react-router-dom";
 const Travel = lazy(() => import("./components/Travel"));
 const Photography = lazy(() => import("./components/Photography"));
 const Home = lazy(() => import("./components/Home"));
 const Nature = lazy(() => import("./components/Nature"));
 const Music= lazy(() => import("./components/Music"));
-const Sidebar= lazy(() => import("./components/Sidebar"));
+const Sidebar= lazy(() => import("./shared/Sidebar"));
 const About= lazy(() => import("./components/About"));
 const Arts= lazy(() => import("./components/Arts"));
 
@@ -26,7 +26,7 @@ import Arts from './components/Arts'; */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter >
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
         {/* page not found route */}

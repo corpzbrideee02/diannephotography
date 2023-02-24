@@ -49,7 +49,7 @@ const Sidebar = () => {
                     ))}
                 </div>
             </aside>
-            <main className="main -ml-48 flex flex-grow flex-col transition-all duration-150 ease-in md:ml-0">
+            <main className="main -ml-48 flex flex-grow flex-col transition-all duration-150 ease-in md:ml-0 bg-black">
                 {/* Renders the child routes underneath */}
                 <Outlet />
             </main>
