@@ -16,9 +16,9 @@ const navigation = [
 const Sidebar = () => {
     return (
         <div className="flex min-h-screen flex-row h-screen">
-            <aside className="sidebar w-64 -translate-x-full transform bg-neutral-900 transition-transform duration-150 ease-in md:translate-x-0 md:shadow-md ">
+            <aside className="md:w-64 transform bg-neutral-900 transition-transform duration-150 ease-in md:translate-x-0 md:shadow-md ">
                 {/* place sidebar here */}
-                <div id="profile" className=" mt-10">
+                <div id="profile" className="mt-10 max-sm:mt-0 max-sm:invisible md:visible">
                     <img
                         src={require(`../images/4a.jpg`)}
                         alt="Avatar user"
@@ -41,7 +41,7 @@ const Sidebar = () => {
                     </div>
                 </div>
 
-                <div className="mt-10 mb-4">
+                <div className="mt-10 mb-4 max-sm:mt-0 max-sm:text-xs">
                     {navigation.map((item) => (
                         <NavLink key={item.name} to={item.href} className="navUL">
                             <label >{item.name} </label>
@@ -49,7 +49,7 @@ const Sidebar = () => {
                     ))}
                 </div>
             </aside>
-            <main className="main -ml-48 flex flex-grow flex-col transition-all duration-150 ease-in md:ml-0 bg-black">
+            <main className="main  flex flex-grow flex-col transition-all duration-150 ease-in md:ml-0 bg-black">
                 {/* Renders the child routes underneath */}
                 <Outlet />
             </main>
