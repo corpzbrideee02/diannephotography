@@ -10,7 +10,7 @@ function Music() {
             </h2>
             <div className="container px-2 py-2 mx-auto lg:pt-4 lg:px-32">
                 <div className=" flex flex-wrap -m-1 md:-m-2">
-                    <div className="flex flex-wrap w-1/2" >
+                    <div className="flex flex-wrap w-1/2 max-sm:w-full" >
                     {music_gallery1.map((item) => (
                               <div className={`${item.width} p-1 md:p-2`}>
                             <img alt={item.alt} className="musicImg" loading={"lazy"}
@@ -18,7 +18,7 @@ function Music() {
                         </div>
                         ))}
                     </div>
-                    <div className="flex flex-wrap w-1/2">
+                    <div className="flex flex-wrap w-1/2 max-sm:w-full">
                     {music_gallery2.map((item) => (
                               <div className={`${item.width} p-1 md:p-2`}>
                             <img alt={item.alt} className="musicImg" loading={"lazy"}

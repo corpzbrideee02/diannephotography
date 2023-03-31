@@ -11,7 +11,7 @@ export const photography_list = [
     { alt: "A tall birdhouse in St. Thomas park", src: "p17a", id: 8 },
     { alt: "Japanese umbrella (Wagasa) taken during Autumn season", src: "p13a", id: 9 },
 
-    { alt: "Stratford City Hall ", src: "p22", id: 10 },
+    { alt: "Canada National Defense in Brantford, Ontario  ", src: "p26", id: 10 },
     { alt: "Downtown Stratford, Ontario", src: "p23a", id: 11 },
     { alt: "Outdoor skating rink in Toronto, Ontario", src: "p24a", id: 12 },
 
@@ -19,4 +19,7 @@ export const photography_list = [
     { alt: "Wooden coffins dangle from cliffs in Sagada (Philippines)", src: "p19a", id: 13 },
     { alt: "Two elderlies working in a Ginseng farm", src: "p20a", id: 14 },
     { alt: "A cool stone in Niagara on the lake", src: "p21a", id: 15 },
+
+    { alt: "Brantford city hall", src: "p25", id: 16 },
+    { alt: "CN Tower", src: "p27", id: 17 },
 ];

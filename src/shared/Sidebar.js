@@ -20,7 +20,7 @@ const Sidebar = () => {
                 {/* place sidebar here */}
                 <div id="profile" className="mt-10 max-sm:mt-0 max-sm:invisible md:visible">
                     <img
-                        src={require(`../images/4a.jpg`)}
+                        src={require(`../images/4a.webp`)}
                         alt="Avatar user"
                         className="h-32 w-32 md:w-32 rounded-full mx-auto"
                     />
@@ -41,7 +41,7 @@ const Sidebar = () => {
                     </div>
                 </div>
 
-                <div className="mt-10 mb-4 max-sm:mt-0 max-sm:text-xs">
+                <div className="mt-10 mb-4 max-sm:mt-0 max-sm:text-xs ">
                     {navigation.map((item) => (
                         <NavLink key={item.name} to={item.href} className="navUL">
                             <label >{item.name} </label>

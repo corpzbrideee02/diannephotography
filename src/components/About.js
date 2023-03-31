@@ -6,7 +6,7 @@ function About() {
       <h2 className="sectionQuotes">About</h2>
       <div class="flex justify-center">
         <div class="text-gray-300">
-          <h4 class="font-semibold text-lg mb-4 text-center max-sm:text-xs">Thanks for visiting my website! I want to share with you a little bit about my interests outside of programming.</h4>
+          <h4 class="font-semibold text-lg m-4 text-center max-sm:text-xs">Thanks for visiting my website! I want to share with you a little bit about my interests outside of programming.</h4>
           <div className="container px-2 py-2 mx-auto lg:pt-4 lg:px-32">
             <div className="flex flex-wrap w-3/4 mx-auto" >
               {about_list.map((item) => (
@@ -20,7 +20,7 @@ function About() {
             </div>
 
           </div>
-          <h4 class="font-semibold text-lg mt-4 text-center">
+          <h4 class="font-semibold text-lg m-4 text-center max-sm:text-xs">
             I hope that my love for photography, music, the outdoors, the arts, and travel shines through in everything that I do.
           </h4>
         </div>

@@ -34,7 +34,7 @@ root.render(
               path="*"
               element={
                   <main className="flex items-center justify-center" >
-                   <img  src={require("./images/404_black.png")} width="500" alt="Page Not found"/>
+                   <img  src={require("./images/404_black.webp")} width="500" alt="Page Not found"/>
                 </main>
               }/>
         <Route path="/" element={<Sidebar />}>
