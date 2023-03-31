@@ -11,7 +11,7 @@ function Nature() {
   }
     return (
         <>
-        <PaginationTemplate list={nature_list} number="6" items={pull_data} quote="Nature always wears the colors of the spirit."/>
+        <PaginationTemplate list={nature_list} number="8" items={pull_data} quote="Nature always wears the colors of the spirit."/>
         {currentNatures!=null &&  <Natures items={currentNatures}/>}
         </>
 

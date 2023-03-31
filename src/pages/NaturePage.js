@@ -6,13 +6,17 @@ const Natures = ({ items, loading }) => {
         </main>
     }
     return (
-        <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
-            <div className="flex flex-wrap -m-0.5 md:-m-2">
+        <div className="p-4">
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-x-6">
                 {items.map((item) => (
-                    <div className="flex flex-wrap w-1/3 hover:bg-neutral-900" key={item.id}>
-                        <div className="w-full p-1 md:p-2">
-                            <img alt={item.alt} className="block object-cover object-center w-full h-full rounded-md" loading={"lazy"}
-                                src={require(`../images/nature/${item.src}.jpg`)} />
+                    <div className="mb-6 lg:mb-2" key={item.id}>
+                        <div className="travelPicDiv shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
+                            data-mdb-ripple="true" data-mdb-ripple-color="light">
+                            <img src={require(`../images/nature/${item.src}.jpg`)} className="w-full" alt={item.alt} loading={"lazy"} />
+                            <div
+                                className="travelPic mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                            ></div>
+
                         </div>
                     </div>
                 ))}
@@ -22,3 +26,5 @@ const Natures = ({ items, loading }) => {
 };
 
 export default Natures;
+
+
