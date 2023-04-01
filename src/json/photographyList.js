@@ -15,11 +15,19 @@ export const photography_list = [
     { alt: "Downtown Stratford, Ontario", src: "p23a", id: 11 },
     { alt: "Outdoor skating rink in Toronto, Ontario", src: "p24a", id: 12 },
 
+    { alt: "Portrait Of Joni Mitchell & some uknown art print", src: "p28", id: 13 },
+    { alt: "Driving in 407", src: "p29", id: 14 },
+    { alt: "Dragon Crest knife dagger", src: "p30", id: 15 },
 
-    { alt: "Wooden coffins dangle from cliffs in Sagada (Philippines)", src: "p19a", id: 13 },
-    { alt: "Two elderlies working in a Ginseng farm", src: "p20a", id: 14 },
-    { alt: "A cool stone in Niagara on the lake", src: "p21a", id: 15 },
+    { alt: "A fox hat while walking in Killaly Park", src: "p31", id: 16 },
+    { alt: "Walking in the woods - Orange beanie focus", src: "p32", id: 17 },
+    { alt: "Brant Conservation Area", src: "p33", id: 18 },
 
-    { alt: "Brantford city hall", src: "p25", id: 16 },
-    { alt: "CN Tower", src: "p27", id: 17 },
+    { alt: "Wooden coffins dangle from cliffs in Sagada (Philippines)", src: "p19a", id: 19 },
+    { alt: "Two elderlies working in a Ginseng farm", src: "p20a", id: 20 },
+    { alt: "A cool stone in Niagara on the lake", src: "p21a", id: 21 },
+
+    { alt: "Brantford city hall", src: "p25", id: 22 },
+    { alt: "CN Tower", src: "p27", id: 23 },
+    { alt: "Brantford city hall", src: "p27a", id: 24 },
 ];
