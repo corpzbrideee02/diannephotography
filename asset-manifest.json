@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/MyPursuits/static/css/main.e9fe55af.css",
-    "main.js": "/MyPursuits/static/js/main.fee317eb.js",
+    "main.js": "/MyPursuits/static/js/main.0d4a8f8f.js",
     "static/js/965.95084b39.chunk.js": "/MyPursuits/static/js/965.95084b39.chunk.js",
-    "static/js/320.3b668cdc.chunk.js": "/MyPursuits/static/js/320.3b668cdc.chunk.js",
+    "static/js/320.9c508bca.chunk.js": "/MyPursuits/static/js/320.9c508bca.chunk.js",
     "static/js/121.6d9226d1.chunk.js": "/MyPursuits/static/js/121.6d9226d1.chunk.js",
-    "static/js/434.43cd2d88.chunk.js": "/MyPursuits/static/js/434.43cd2d88.chunk.js",
+    "static/js/434.b60e15b6.chunk.js": "/MyPursuits/static/js/434.b60e15b6.chunk.js",
     "static/js/854.dce1658e.chunk.js": "/MyPursuits/static/js/854.dce1658e.chunk.js",
     "static/js/298.d3214007.chunk.js": "/MyPursuits/static/js/298.d3214007.chunk.js",
     "static/js/360.f33b6a91.chunk.js": "/MyPursuits/static/js/360.f33b6a91.chunk.js",
@@ -97,13 +97,17 @@
     "static/media/27.jpg": "/MyPursuits/static/media/27.ca6824c454d52fba53fc.jpg",
     "static/media/21.jpg": "/MyPursuits/static/media/21.093584ba63169391e8b5.jpg",
     "static/media/tp.jpg": "/MyPursuits/static/media/tp.e9e6ab8c344161cd0824.jpg",
+    "static/media/p4.jpg": "/MyPursuits/static/media/p4.64f22e23c151e7c0b53c.jpg",
     "static/media/tj.JPG": "/MyPursuits/static/media/tj.d449559612d601ab494d.JPG",
     "static/media/4.jpg": "/MyPursuits/static/media/4.bc2b364d3f691ea40133.jpg",
     "static/media/5.jpg": "/MyPursuits/static/media/5.111d2bac0582953bd87e.jpg",
     "static/media/24.jpg": "/MyPursuits/static/media/24.4b44fbdfa0a0b9b1e44c.jpg",
     "static/media/p8.jpg": "/MyPursuits/static/media/p8.feba6c9cc8e4c89acdee.jpg",
+    "static/media/p5.jpg": "/MyPursuits/static/media/p5.d60288595a08998f3924.jpg",
+    "static/media/p6.jpg": "/MyPursuits/static/media/p6.d1e7bfe553e3ff16efde.jpg",
     "static/media/p15a.jpg": "/MyPursuits/static/media/p15a.7c79c8c19207bc84722d.jpg",
     "static/media/p28.jpg": "/MyPursuits/static/media/p28.69a10e75e328f8675a42.jpg",
+    "static/media/29.jpg": "/MyPursuits/static/media/29.edd4318faa309c1b7e78.jpg",
     "static/media/p12a.jpg": "/MyPursuits/static/media/p12a.a2c859891dfc9d9e8be3.jpg",
     "static/media/p30.jpg": "/MyPursuits/static/media/p30.3bb683c0a367649b436a.jpg",
     "static/media/25.jpg": "/MyPursuits/static/media/25.cd4cc3076ccd77d251d0.jpg",
@@ -118,11 +122,11 @@
     "static/media/404_black.webp": "/MyPursuits/static/media/404_black.aa0935ef6f5d75f67eab.webp",
     "index.html": "/MyPursuits/index.html",
     "main.e9fe55af.css.map": "/MyPursuits/static/css/main.e9fe55af.css.map",
-    "main.fee317eb.js.map": "/MyPursuits/static/js/main.fee317eb.js.map",
+    "main.0d4a8f8f.js.map": "/MyPursuits/static/js/main.0d4a8f8f.js.map",
     "965.95084b39.chunk.js.map": "/MyPursuits/static/js/965.95084b39.chunk.js.map",
-    "320.3b668cdc.chunk.js.map": "/MyPursuits/static/js/320.3b668cdc.chunk.js.map",
+    "320.9c508bca.chunk.js.map": "/MyPursuits/static/js/320.9c508bca.chunk.js.map",
     "121.6d9226d1.chunk.js.map": "/MyPursuits/static/js/121.6d9226d1.chunk.js.map",
-    "434.43cd2d88.chunk.js.map": "/MyPursuits/static/js/434.43cd2d88.chunk.js.map",
+    "434.b60e15b6.chunk.js.map": "/MyPursuits/static/js/434.b60e15b6.chunk.js.map",
     "854.dce1658e.chunk.js.map": "/MyPursuits/static/js/854.dce1658e.chunk.js.map",
     "298.d3214007.chunk.js.map": "/MyPursuits/static/js/298.d3214007.chunk.js.map",
     "360.f33b6a91.chunk.js.map": "/MyPursuits/static/js/360.f33b6a91.chunk.js.map",
@@ -131,6 +135,6 @@
   },
   "entrypoints": [
     "static/css/main.e9fe55af.css",
-    "static/js/main.fee317eb.js"
+    "static/js/main.0d4a8f8f.js"
   ]
 }
