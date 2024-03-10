@@ -26,4 +26,5 @@ export const nature_list = [
     { alt: "Cave 1", src: 18, id: 18 },
     { alt: "Cave 2", src: 19, id: 19 },
     { alt: "Cave 3", src: 20, id: 20 },
+    { alt: "Little Scorpion", src: 21, id: 21 },
 ];

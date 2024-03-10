@@ -4,6 +4,10 @@ export const photography_list = [
     { alt: "Chinese Magnetic Mariners Compass (19th century)", src: "p8", id: 2 },
     { alt: "Aetosaur - Fossil Dinosaur Skeleton", src: "p9", id: 3 },
 
+    { alt: "Beetles at Cambridge Butterfly Conservatory", src: "p4", id: 28 },
+    { alt: "Spider at Cambridge Butterfly Conservatory", src: "p5", id: 29 },
+    { alt: "Moths at Cambridge Butterfly Conservatory", src: "p6", id: 30 },
+
     { alt: "Fancy dining room in a birthday event", src: "p10a", id: 4 },
     { alt: "Giant Teddy Bear sitting alone", src: "p11a", id: 5 },
     { alt: "Poker table at Whitchurch-Stouffville, ON", src: "p12a", id: 6 },
