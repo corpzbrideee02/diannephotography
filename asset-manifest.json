@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/MyPursuits/static/css/main.e9fe55af.css",
-    "main.js": "/MyPursuits/static/js/main.0d4a8f8f.js",
+    "main.js": "/MyPursuits/static/js/main.5a7679ed.js",
     "static/js/965.95084b39.chunk.js": "/MyPursuits/static/js/965.95084b39.chunk.js",
     "static/js/320.9c508bca.chunk.js": "/MyPursuits/static/js/320.9c508bca.chunk.js",
     "static/js/121.6d9226d1.chunk.js": "/MyPursuits/static/js/121.6d9226d1.chunk.js",
-    "static/js/434.b60e15b6.chunk.js": "/MyPursuits/static/js/434.b60e15b6.chunk.js",
+    "static/js/434.c4d11373.chunk.js": "/MyPursuits/static/js/434.c4d11373.chunk.js",
     "static/js/854.dce1658e.chunk.js": "/MyPursuits/static/js/854.dce1658e.chunk.js",
     "static/js/298.d3214007.chunk.js": "/MyPursuits/static/js/298.d3214007.chunk.js",
     "static/js/360.f33b6a91.chunk.js": "/MyPursuits/static/js/360.f33b6a91.chunk.js",
@@ -122,11 +122,11 @@
     "static/media/404_black.webp": "/MyPursuits/static/media/404_black.aa0935ef6f5d75f67eab.webp",
     "index.html": "/MyPursuits/index.html",
     "main.e9fe55af.css.map": "/MyPursuits/static/css/main.e9fe55af.css.map",
-    "main.0d4a8f8f.js.map": "/MyPursuits/static/js/main.0d4a8f8f.js.map",
+    "main.5a7679ed.js.map": "/MyPursuits/static/js/main.5a7679ed.js.map",
     "965.95084b39.chunk.js.map": "/MyPursuits/static/js/965.95084b39.chunk.js.map",
     "320.9c508bca.chunk.js.map": "/MyPursuits/static/js/320.9c508bca.chunk.js.map",
     "121.6d9226d1.chunk.js.map": "/MyPursuits/static/js/121.6d9226d1.chunk.js.map",
-    "434.b60e15b6.chunk.js.map": "/MyPursuits/static/js/434.b60e15b6.chunk.js.map",
+    "434.c4d11373.chunk.js.map": "/MyPursuits/static/js/434.c4d11373.chunk.js.map",
     "854.dce1658e.chunk.js.map": "/MyPursuits/static/js/854.dce1658e.chunk.js.map",
     "298.d3214007.chunk.js.map": "/MyPursuits/static/js/298.d3214007.chunk.js.map",
     "360.f33b6a91.chunk.js.map": "/MyPursuits/static/js/360.f33b6a91.chunk.js.map",
@@ -135,6 +135,6 @@
   },
   "entrypoints": [
     "static/css/main.e9fe55af.css",
-    "static/js/main.0d4a8f8f.js"
+    "static/js/main.5a7679ed.js"
   ]
 }
